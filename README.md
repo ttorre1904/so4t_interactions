@@ -41,7 +41,7 @@ Creating an access token for Enterpise can sometimes be tricky for people who ha
 In a terminal window, navigate to the directory where you unpacked the script. 
 Run the script using the following format, replacing the URL, token, and/or key with your own:
 - Business: `python3 so4t_interactions.py --url "https://stackoverflowteams.com/c/TEAM-NAME" --token "YOUR_TOKEN"`
-- Enterprise: `python3 so4t_interactions.py --url "https://SUBDOMAIN.stackenterprise.co" --key "YOUR_KEY"`
+- Enterprise: `python3 so4t_interactions.py --url "https://SUBDOMAIN.stackenterprise.co" --key "YOUR_KEY" --token "YOUR_TOKEN"`
 
 At the beginning of the script, a small Chrome window will appear, prompting you to login to your instance of Stack Overflow Enterpise. This is necessary in order to obtain data that is not currently available via the API.
 
